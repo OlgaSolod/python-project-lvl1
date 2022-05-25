@@ -6,3 +6,8 @@
 ### CodeClimate:
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
+### Install packet
+[![asciicast](https://asciinema.org/a/Y5GdxLmPjrpb5XynjdgGj4GK7.svg)](https://asciinema.org/a/Y5GdxLmPjrpb5XynjdgGj4GK7)
+
+### Run, win and lose game
+[![asciicast](https://asciinema.org/a/k9M62FqwvZSWahTWRgHa0FdG3.svg)](https://asciinema.org/a/k9M62FqwvZSWahTWRgHa0FdG3)
