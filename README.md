@@ -9,5 +9,8 @@
 ### Install packet
 https://asciinema.org/a/Y5GdxLmPjrpb5XynjdgGj4GK7
 
-### Run, win and lose game
+### Run, win and lose game brain-even
 https://asciinema.org/a/k9M62FqwvZSWahTWRgHa0FdG3
+
+### Install, run, win and lose game brain-calc
+https://asciinema.org/a/8dUARKG5AIw2ki5fbBe25Hln0
