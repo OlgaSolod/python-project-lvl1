@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Olga <jasminess847@gmail.com>"]
 packages = [
-	{ include = "brain_games" },
+	{ include = "brain_game" },
 ]
 
 [tool.poetry.dependencies]
@@ -20,5 +20,6 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.brain_even:main"
+brain-games = "brain_game.scripts.brain_games:main"
+brain-even = "brain_game.scripts.brain_even:main"
+brain-calc = "brain_game.scripts.brain_calc:main"

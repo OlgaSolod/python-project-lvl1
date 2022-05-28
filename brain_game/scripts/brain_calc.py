@@ -1,12 +1,11 @@
 #!/usr/bin/env python
-
-
-from brain_games.games.even import game_check_even_start
+from brain_game.games.calc import calculation
 
 
 def main():
     print("Welcome to the Brain Games!")
-    game_check_even_start()
+
+    calculation()
 
 
 if __name__ == '__main__':
