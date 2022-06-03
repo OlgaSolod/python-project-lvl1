@@ -35,5 +35,4 @@ def search_divider(number_1, number_2):
         divider = max_num % min_num
         max_num = min_num
         min_num = divider
-    print(divider)
     return divider
