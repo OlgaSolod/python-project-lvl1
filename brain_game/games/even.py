@@ -1,29 +1,27 @@
 from random import randint
-import prompt
+from brain_game.logic import greeting
+from brain_game.logic import ask_question
+from brain_game.logic import get_answer
+from brain_game.logic import check_answer
+from brain_game.logic import check_right_answers
 
 
 def game_check_even_start():
-    username = prompt.string('May I have your name? ')
-    print(f'Hello, {username}!')
+    name = greeting()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     counter = 0
     while i < 3:
         number = randint(1, 100)
-        check_even = is_number_even(number)
-        print(f'Question: {number}')
-        answer = prompt.string('')
-        if answer == check_even:
-            print('Correct!')
+        result = is_number_even(number)
+        ask_question(number)
+        answer = get_answer()
+        if check_answer(answer, result, name):
             counter += 1
+            check_right_answers(counter, name)
         else:
-            print(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{check_even}'.")
-            print(f"Let's try again, {username}!")
             return
         i += 1
-    if counter == 3:
-        print(f'Congratulations, {username}!')
 
 
 def is_number_even(number):

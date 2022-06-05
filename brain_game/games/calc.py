@@ -3,14 +3,15 @@ from brain_game.logic import check_answer
 from brain_game.logic import ask_question
 from brain_game.logic import greeting
 from brain_game.logic import get_answer
+from brain_game.logic import check_right_answers
 
 
-def calculation():
+def play_calc():
     name = greeting()
     print("What is the result of the expression?")
     i = 0
     operations = ("-", "+", "*")
-    right_answer_counter = 0
+    counter = 0
     while i < 3:
         number_1 = randint(1, 100)
         number_2 = randint(1, 100)
@@ -20,11 +21,10 @@ def calculation():
         ask_question(question)
         answer = get_answer()
         if check_answer(answer, result, name):
-            right_answer_counter += 1
+            counter += 1
+            check_right_answers(counter, name)
         else:
             return
-        if right_answer_counter == 3:
-            print(f'Congratulations, {name}!')
         i += 1
 
 
