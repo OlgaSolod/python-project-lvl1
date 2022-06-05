@@ -17,3 +17,6 @@ https://asciinema.org/a/8dUARKG5AIw2ki5fbBe25Hln0
 
 ### Install, run, win and lose game brain-gcd
 https://asciinema.org/a/eID2wCc2zW1UCvfH2bSzD98TM
+
+### Install, run, win and lose game brain-progression
+https://asciinema.org/a/7KNmFmvYT13NYcbvDeW41GmWc
