@@ -7,11 +7,17 @@ def greeting():
     return username
 
 
+def check_right_answers(counter, name):
+    if counter == 3:
+        congrats(name)
+
+
 def ask_question(question):
     print(f'Question: {question}')
 
 
 def get_answer():
+    print('Your answer: ', end='')
     user_answer = prompt.string('')
     return user_answer
 
