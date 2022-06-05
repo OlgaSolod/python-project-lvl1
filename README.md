@@ -6,17 +6,17 @@
 ### CodeClimate:
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
-### Install packet brain-even
-https://asciinema.org/a/Y5GdxLmPjrpb5XynjdgGj4GK7
-
-### Run, win and lose game brain-even
-https://asciinema.org/a/k9M62FqwvZSWahTWRgHa0FdG3
+### Install, run, win and lose game brain-even
+https://asciinema.org/a/DpmdUDwMKcXohijnt2Nud2mVS
 
 ### Install, run, win and lose game brain-calc
-https://asciinema.org/a/8dUARKG5AIw2ki5fbBe25Hln0
+https://asciinema.org/a/kTUYm4OmEbSCt5IPGTexui8hH
 
 ### Install, run, win and lose game brain-gcd
-https://asciinema.org/a/eID2wCc2zW1UCvfH2bSzD98TM
+https://asciinema.org/a/6xBYRo5CUlSOnADLTVTptsLBu
 
 ### Install, run, win and lose game brain-progression
-https://asciinema.org/a/7KNmFmvYT13NYcbvDeW41GmWc
+https://asciinema.org/a/RTBixEok8iJavEIogpesBiNDj
+
+### Install, run, win and lose game brain-prime
+https://asciinema.org/a/QyK7FW4Z2qfFRveMr0pZVCmAY
