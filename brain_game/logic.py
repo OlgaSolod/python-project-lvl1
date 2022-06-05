@@ -27,7 +27,7 @@ def check_answer(answer, actual_result, username):
         print('Correct!')
         return True
     else:
-        print(f"{answer} is wrong answer ;(. "
+        print(f"'{answer}' is wrong answer ;(. "
               f"Correct answer was '{actual_result}'.")
         print(f"Let's try again, {username}!")
         return False
