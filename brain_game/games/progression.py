@@ -16,10 +16,10 @@ def generate_question_answer():
 
 
 def create_question(new_progression):
-    question = ''
+    string = ''
     for item in new_progression:
-        question = question + ' ' + str(item)
-    return question
+        string = string + ' ' + str(item)
+    return string
 
 
 def get_progression(start_number, difference):

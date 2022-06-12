@@ -19,7 +19,6 @@ def round(game, name):
     counter = 0
     while i < 3:
         question, result = game.generate_question_answer()
-        print(result)
         ask_question(question)
         answer = get_answer()
         if check_answer(answer, result, name):
