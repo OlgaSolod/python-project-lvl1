@@ -12,6 +12,7 @@ def generate_question_answer():
     result = progression[index]
     new_progression = (progression[0:index] + ('..',) + progression[index + 1:])
     question = create_question(new_progression)
+    print(question)
     return question, result
 
 
@@ -19,7 +20,7 @@ def create_question(new_progression):
     string = ''
     for item in new_progression:
         string = string + ' ' + str(item)
-    return string
+    return string.strip()
 
 
 def get_progression(start_number, difference):
