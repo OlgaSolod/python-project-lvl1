@@ -7,12 +7,12 @@ GAME_RULES = 'Find the greatest common divisor of given numbers.'
 def generate_question_answer():
     number_1 = randint(1, 100)
     number_2 = randint(1, 100)
-    result = search_divider(number_1, number_2)
+    result = gcd(number_1, number_2)
     question = f'{number_1} {number_2}'
-    return question, result
+    return str(question), str(result)
 
 
-def search_divider(number_1, number_2):
+def gcd(number_1, number_2):
     max_num = max(number_1, number_2)
     min_num = min(number_1, number_2)
     divider = min_num

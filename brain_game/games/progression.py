@@ -10,10 +10,9 @@ def generate_question_answer():
     index = randint(0, 9)
     progression = get_progression(number_1, number_2)
     result = progression[index]
-    new_progression = (progression[0:index] + ('..',) + progression[index + 1:])
-    question = create_question(new_progression)
-    print(question)
-    return question, result
+    progression[index] = '..'
+    question = create_question(progression)
+    return str(question), str(result)
 
 
 def create_question(new_progression):
@@ -24,10 +23,10 @@ def create_question(new_progression):
 
 
 def get_progression(start_number, difference):
-    tuple = ()
+    list = []
     i = 2
     while i < 12:
         new_element = start_number + (i - 1) * difference
-        tuple = tuple + (new_element, )
+        list.append(new_element)
         i += 1
-    return tuple
+    return list

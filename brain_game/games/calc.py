@@ -12,7 +12,7 @@ def generate_question_answer():
     sign = operations[sign_index]
     result = get_result(sign, number_1, number_2)
     question = f'{number_1} {sign} {number_2}'
-    return question, result
+    return str(question), str(result)
 
 
 def get_result(sign, number_1, number_2):

@@ -6,12 +6,14 @@ GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def generate_question_answer():
     number = randint(1, 100)
-    result = is_number_even(number)
+    if is_even(number):
+        result = "yes"
+    else:
+        result = "no"
+
     question = f'{number}'
-    return question, result
+    return str(question), str(result)
 
 
-def is_number_even(number):
-    even = 'yes'
-    not_even = 'no'
-    return even if number % 2 == 0 else not_even
+def is_even(number):
+    return True if number % 2 == 0 else False
