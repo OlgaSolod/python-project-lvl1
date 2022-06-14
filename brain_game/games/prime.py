@@ -19,6 +19,6 @@ def is_prime(number):
     while i < number:
         if number % i != 0:
             i += 1
-            return True
         else:
             return False
+    return True
