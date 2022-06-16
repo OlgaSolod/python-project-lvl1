@@ -11,7 +11,7 @@ def generate_question_answer():
     else:
         result = "no"
 
-    question = f'{number}'
+    question = number
     return str(question), str(result)
 
 

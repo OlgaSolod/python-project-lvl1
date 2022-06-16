@@ -10,12 +10,12 @@ def generate_question_answer():
     number_2 = randint(1, 10)
     sign_index = randint(0, len(operations) - 1)
     sign = operations[sign_index]
-    result = get_result(sign, number_1, number_2)
+    result = calc(sign, number_1, number_2)
     question = f'{number_1} {sign} {number_2}'
-    return str(question), str(result)
+    return question, str(result)
 
 
-def get_result(sign, number_1, number_2):
+def calc(sign, number_1, number_2):
     result = 0
     if sign == "+":
         result = number_1 + number_2

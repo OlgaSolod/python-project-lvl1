@@ -12,7 +12,7 @@ def generate_question_answer():
     result = progression[index]
     progression[index] = '..'
     question = create_question(progression)
-    return str(question), str(result)
+    return question, str(result)
 
 
 def create_question(new_progression):
