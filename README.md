@@ -1,3 +1,11 @@
+### Описание проекта
+Проект состоит из 5 математических игр: определение числа на четность-нечетность, вычисление НОД, выявление пропущенного числа в прогрессии, игра на базовые арифметические действия (сложение, умножение, вычитание), определение простоты числа.
+Цель проекта - призван закрепить в игровой форме все вышеперечисленные навыки.
+
+### Установка пакета
+1. Установленный pip
+2. Установить пакет можно при помощи команды pip install --user --force-reinstall git+https://github.com/OlgaSolod/python-project-lvl1.git
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/OlgaSolod/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/OlgaSolod/python-project-lvl1/actions)
 
@@ -20,11 +28,3 @@
 
 ### Install, run, win and lose game brain-prime
 [![asciicast](https://asciinema.org/a/QyK7FW4Z2qfFRveMr0pZVCmAY.svg)](https://asciinema.org/a/QyK7FW4Z2qfFRveMr0pZVCmAY)
-
-### Описание проекта
-Проект состоит из 5 математических игр: определение числа на четность-нечетность, вычисление НОД, выявление пропущенного числа в прогрессии, игра на базовые арифметические действия (сложение, умножение, вычитание), определение простоты числа.
-Цель проекта - призван закрепить в игровой форме все вышеперечисленные навыки.
-
-### Установка пакета
-1. Установленный pip
-2. Установить пакет можно при помощи команды pip install --user --force-reinstall git+https://github.com/OlgaSolod/python-project-lvl1.git
